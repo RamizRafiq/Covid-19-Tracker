@@ -1,0 +1,25 @@
+.header {
+  text-align: center;
+}
+.header-title {
+  color: #0a067b !important;
+  padding: 15px 0px;
+  font-size: 45px !important;
+}
+
+.main-content {
+  min-height: 700px;
+  width: 100%;
+}
+
+.footer {
+  background-color: rgb(241, 239, 239);
+  padding: 20px 0px;
+  color: #0a067b !important;
+}
+
+@media (max-width: 600px) {
+  .header-title {
+    font-size: 35px !important;
+  }
+}
